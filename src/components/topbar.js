@@ -9,10 +9,17 @@ import lilpotchinese from '../assets/lolpotlogochinese.png'
 function topbar() {
   return (
     <div className='header'>
-      <ul className={"nav-menu"}>
-        <img src={lilpotlogo} className="lilpotlogo"></img>
-        <img src={lilpottext} className="lilpottext"></img>
-        <img src={lilpotchinese} className="lilpotchinese"></img>
+        <div className='lilpot-logo'>
+          <img src={lilpotlogo}></img>
+        </div>
+        <div className="lilpot-logo">
+          <img src={lilpottext} ></img>
+        </div>
+        <div className="lilpot-logo">
+        <img src={lilpotchinese} ></img>
+        </div>
+        
+      <ul className='nav-menu'>
         <a
           className="btn"
           href={"https://www.linkedin.com/in/dorian-chen-343058247/"}
