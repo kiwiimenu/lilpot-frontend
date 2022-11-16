@@ -1,0 +1,57 @@
+.resize-animation-stopper * {
+    transition: none !important;
+    animation: none !important;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.5rem;
+    position: relative;
+    width: 98%;
+    z-index: 20;
+    background-image: url(../assets/masterbackground.png);
+    position: absolute;
+    height: 71px;
+    top: 1%;
+    left: 1%;
+    box-sizing: border-box;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: rgb(255, 255, 255);
+    align-self: middle;
+}
+
+.btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    align-self: flex-end;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.lilpotlogo{
+    position: relative;
+    top: 10px;
+    align-self: flex-start;
+}
+.lilpottext{
+    position: relative;
+    top: 10px;
+}
+.lilpotchinese{
+    position: relative;
+    top: 10px;
+}
+
+
+.nav-menu {
+    flex-direction: row;
+}
+  
+.nav-menu a {
+    padding: 0 1rem;
+}

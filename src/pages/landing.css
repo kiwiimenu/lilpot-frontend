@@ -1,0 +1,19 @@
+.Wrapper{
+    height: 100vh;
+    width: 100vw;
+    font-size: small;
+    align-items: center;
+    flex-direction: row;
+}
+
+.videoTag{
+    height: 100%;
+    overflow:hidden;
+    display:block;
+    text-align: center;
+}
+
+.cover{
+    width: 100%;
+    background-image: url(../assets/backgroundcover.png);
+}
