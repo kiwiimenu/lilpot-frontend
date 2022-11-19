@@ -10,8 +10,11 @@ function hours() {
         <div className="Hours">
             <div className="InfoContainer">
                 <img src={card} className="ourhours"></img>
-                <img src={card} className="ourhours"></img>
-                <img src={card} className="ourhours"></img>
+                <div className="textContainer">
+                    <h1>Monday<br/>Tuesday<br/>Wednesday<br/>Thursday<br/>Friday<br/>Saturday<br/>Sunday</h1>
+                    <h2>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>12-11p.m.<br/>12-11p.m.</h2>
+                </div>
+                
             </div>
 
 
