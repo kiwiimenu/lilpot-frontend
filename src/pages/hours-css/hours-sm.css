@@ -1,0 +1,23 @@
+.responsive-iframe{
+    height:250px;
+}
+
+.textContainer{
+    padding-top:5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1{
+    font-size: 1rem;
+    line-height:24px;
+}
+
+h2{
+    font-size: 1rem;   
+    line-height:24px;
+}
+
+.ourhours{
+    width:47%;
+}

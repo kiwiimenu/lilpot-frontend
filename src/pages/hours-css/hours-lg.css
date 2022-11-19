@@ -1,0 +1,32 @@
+
+.InfoContainer{
+    padding-top: 3%;
+    padding-left: 10%;
+    width:90%;
+    display:grid;
+    grid-template-columns: 2.5fr 2fr;
+    gap:1.5rem;
+}
+
+.textContainer{
+    padding-top:5%;
+    padding-right:10%;
+}
+
+.responsive-iframe{
+    height:400px;
+}
+
+h1{
+    font-size: 2rem;
+    line-height:44px;
+}
+
+h2{
+    font-size: 2rem;   
+    line-height:44px;
+}
+
+.ourhours{
+    width:67%;
+}
