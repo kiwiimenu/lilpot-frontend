@@ -1,12 +1,26 @@
 .Maps{
     filter:grayscale(100%) invert(100%);
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
 
 }
 .responsive-iframe{
     width:80%;
-    height:500px;
+    height:400px;
     border-width:2px;
     border-style: double;
+}
+
+.InfoContainer{
+    padding-top: 3%;
+    padding-left: 10%;
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+}
+
+.ourhours{
+    width:100%;
+    transform:rotate(-10deg);
 }
