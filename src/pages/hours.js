@@ -10,6 +10,8 @@ function hours() {
         <div className="Hours">
             <div className="InfoContainer">
                 <img src={card} className="ourhours"></img>
+                <img src={card} className="ourhours"></img>
+                <img src={card} className="ourhours"></img>
             </div>
 
 

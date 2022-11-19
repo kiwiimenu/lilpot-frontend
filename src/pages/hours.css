@@ -14,13 +14,14 @@
 .InfoContainer{
     padding-top: 3%;
     padding-left: 10%;
-    width:80%;
+    width:90%;
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 2.5fr 1fr 1fr;
     gap:1.5rem;
 }
 
 .ourhours{
-    width:100%;
+    width:67%;
+    padding-left: 3%;
     transform:rotate(-10deg);
 }
