@@ -1,0 +1,8 @@
+.menu_containers{
+    flex-direction: column;
+}
+
+.big{
+    height: 175vh;
+    min-height: 1500px;
+}

@@ -6,10 +6,10 @@ import card from '../assets/ourhours.png';
 
 function hours() {
   return (
-    <div style={{backgroundImage:`url(${masterbg})`}}>
+    <div style={{backgroundImage:`url(${masterbg})`}} className="cont">
         <div className="Hours">
             <div className="InfoContainer">
-                <img src={card} className="ourhours"></img>
+                <img src={card} className="ourhours" alt='cardwithtext'></img>
                 <div className="textContainer">
                     <h1>Monday<br/>Tuesday<br/>Wednesday<br/>Thursday<br/>Friday<br/>Saturday<br/>Sunday</h1>
                     <h2>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>4-11p.m.<br/>12-11p.m.<br/>12-11p.m.</h2>

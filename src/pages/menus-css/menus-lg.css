@@ -1,0 +1,7 @@
+.menu_containers{
+    flex-direction: row;
+}
+
+.big{
+    height: 100vh;
+}

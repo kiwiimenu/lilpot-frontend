@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600&family=Noto+Sans:ital,wght@1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600&family=Noto+Sans:ital,wght@1,700&display=swap');
 
+.cont{
+    height: max-content;
+    position: relative;
+}
 h1{
     color:white;
     text-align:left;
