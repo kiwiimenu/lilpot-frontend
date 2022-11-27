@@ -1,6 +1,6 @@
 .big{
     width: 100vw;
-    height: max-content;
+    /* min-height: max-content; */
     position: relative;
     padding: 30px 0px 20px 0px;
 }

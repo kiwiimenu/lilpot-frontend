@@ -3,6 +3,6 @@
 }
 
 .big{
-    height: 145vh;
+    height: max-content;
     min-height: 1500px;
 }
