@@ -1,13 +1,13 @@
 import React from 'react'
 import './landing.css'
-import Topbar from '../components/topbar'
+// import Topbar from '../components/topbar'
 import sample from '../assets/background.mp4';
 import Cover from '../assets/backgroundcover.png';
 
 function Landing() {
   return (
     <div className='Wrapper'>
-        <Topbar></Topbar>
+        {/* <Topbar></Topbar> */}
         <img src={Cover} alt="" className='cover'/>
         <div className='videoContainer'>
         <video className='videoTag' autoPlay loop muted>

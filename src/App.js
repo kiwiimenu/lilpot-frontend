@@ -1,19 +1,51 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GetItems from './components/GetItems';
-import Hours from './pages/hours';
-import Landing from './pages/landing'
-import Menus from './pages/menus';
+import Home from './pages/Home';
+import lilpotlogo from './assets/lilpotlogo.png'
+import lilpottext from './assets/lolpotlogotext.png'
+import lilpotchinese from './assets/lolpotlogochinese.png'
+import './components/topbar.css'
+import {BrowserRouter as Router, Route, Switch, Link, useHistory} from 'react-router-dom'
+import AboutUs from './pages/AboutUs';
+import Events from './pages/Events';
+import TopBar from './components/topbar';
 
 function App() {
+  const history = useHistory()
+
+  const navigatePage = (page) => {
+    history.push(page)
+  }
 
   return (
-    <div className="App">
-       <Landing></Landing>
+    <Router>
+      <div className='App'>
+      <TopBar></TopBar>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+        <Route exact path = '/aboutus'>
+          <AboutUs></AboutUs>
+        </Route>
+        <Route exact path = '/events'>
+          <Events></Events>
+        </Route>
+        {/* <Route exact path = '/openinghours'>
+
+        </Route> */}
+
+        {/* You can add your routes here by using
+        the Route tag and adding the exact path
+        and then linking it in the navbar*/}
+
+      </Switch>
+       {/* <Landing></Landing>
        <Menus></Menus>
        <Hours></Hours>
-       <GetItems></GetItems>
-    </div>
+       <GetItems></GetItems> */}
+       </div>
+    </Router>
   );
 }
 
