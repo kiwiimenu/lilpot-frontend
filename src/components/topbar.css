@@ -2,12 +2,20 @@
     transition: none !important;
     animation: none !important;
 }
+
+.headerwrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
   
 .header {
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-    width: 98%;
+    /* margin: 20px; */
+    /* width: 98%; */
     /* z-index: 20; */
     background-image: url(../assets/masterbackground.png);
     /* position: absolute; */
@@ -16,7 +24,8 @@
     /* top: 1%;
     left: 1%; */
     margin-top: 1%;
-    margin-left: 1%;
+    margin-left: 1vw;
+    margin-right: 1vw;
     box-sizing: border-box;
     outline-width: 3px;
     outline-style: solid;

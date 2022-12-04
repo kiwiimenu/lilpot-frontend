@@ -4,62 +4,24 @@ import lilpotlogo from '../assets/lilpotlogo.png'
 import lilpottext from '../assets/lolpotlogotext.png'
 import lilpotchinese from '../assets/lolpotlogochinese.png'
 import {Link} from 'react-router-dom'
+import TopBarDesktop from './TopBarDesktop'
+import TopBarMobile from './TopBarMobile'
+
 
 
 function TopBar() {
-  return (
-    <div className='header'>
-          <div className='lilpot-logo'>
-            <img src={lilpotlogo}></img>
-          </div>
-          <div className="lilpot-logo">
-            <img src={lilpottext} ></img>
-          </div>
-          <div className="lilpot-logo">
-          <img src={lilpotchinese} ></img>
-          </div>
-          
-        <ul className='nav-menu'>
-          {/* do you want a home page? The ones done with Link tag are done by Sarina using router */}
-          <Link to='/aboutus' className='btn'>About Us</Link>
-          
-          
-          <a
-            className="btn"
-            href={"https://www.linkedin.com/in/dorian-chen-343058247/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Menu
-          
-          
-          </a>
-          
-          
-          <Link to='/events' className='btn'>Events</Link>
-          
-          
-          <a
-            className="btn"
-            href={"https://www.linkedin.com/in/dorian-chen-343058247/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Opening Hours
-          </a>
-          
-          
-          <a
-            className="btn"
-            href={"https://www.linkedin.com/in/dorian-chen-343058247/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Locations
-          </a>
-        </ul>
-      </div>
-  )
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 760;
+  React.useEffect(() => {
+    /* Inside of a "useEffect" hook add an event listener that updates
+       the "width" state variable when the window size changes */
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+    return () => window.removeEventListener("resize", window.handleWindowResize);
+  }, []);
+  width > breakpoint ? console.log('greater than 760') : console.log('less than 760')
+  // }
+  return width < breakpoint ? <TopBarMobile /> : <TopBarDesktop />;
+  
 }
 
 export default TopBar;
