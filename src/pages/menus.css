@@ -47,3 +47,27 @@
 @import url('../pages/menus-css/menus-sm.css') (max-width: 999px);
 @import url('../pages/menus-css/menus-md.css') (max-width: 1500px) and (min-width: 1000px);
 @import url('../pages/menus-css/menus-lg.css') (min-width: 1501px);
+
+.image-container {
+    padding: 5%;
+    width: 100vw;
+}
+
+.image-food {
+    width: 100%;
+}
+
+.title-container {
+    width: 100vw;
+    display: flex;
+    padding-left: 5%;
+    color: white;
+    /* font-size: 2em; */
+    font-size: 4em;
+}
+
+@media (max-width: 800px) {
+    .title-container {
+        font-size: 2em;
+    }
+}
