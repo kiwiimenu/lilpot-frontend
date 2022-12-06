@@ -8,7 +8,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-<div className='Wrapper'> <App /> </div>
+{/* <div className='Wrapper'> <App /> </div>
+ */}
+ <App />
   </React.StrictMode>
 );
 
