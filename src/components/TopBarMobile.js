@@ -1,13 +1,11 @@
 import Sidebar from './Sidebar';
+import './topbar.css'
 
 function TopBarMobile() {
-    return <div className="" id="outer-container">
-    <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+    return <div className='top'>
+    <Sidebar pageWrapId={'page-wrap'} outerContainerId={'Wrapper'} />
 
-    <div id="page-wrap">
-      {/* <h1>Cool Restaurant</h1>
-      <h2>Check out our offerings in the sidebar!</h2> */}
-    </div>
+    <div id="page-wrap"></div>
   </div>
 }
 
