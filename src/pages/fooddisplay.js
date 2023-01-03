@@ -1,16 +1,35 @@
 import React from 'react'
-import card from '../assets/ourhours.png';
+import './fooddisplay.css'
+import card from '../assets/meet1.jpg';
 
 function fooddisplay() {
-  return (
-    <div className="row">
-        <div className="column">
-        <img src={card} className="ourhours" alt='cardwithtext'></img>
+    return (
+        <div className="collage">
+            <div className="row">
+                <div className="column">
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                </div>
+                <div className="column">
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                </div>
+                <div className="column">
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                </div>
+                <div className="column">
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                    <img src={card} className="fade_hov" alt='cardwithtext'></img>
+                </div>
+            </div>
         </div>
-       <h1>guh </h1>   
-    </div>
-    
-  )
+
+    )
 }
 
 export default fooddisplay

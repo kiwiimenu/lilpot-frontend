@@ -2,8 +2,36 @@
     box-sizing: border-box;
 }
 
+.collage{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .column{
     flex: 25%;
     max-width: 25%;
+    padding:0;
 }
 
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.column img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+.fade_hov{
+    background: #fff;
+}
+
+.fade{
+    opacity: 0.5;
+}
+
+.column img:hover{
+    -webkit-filter:grayscale(100%);
+}
