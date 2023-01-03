@@ -3,6 +3,8 @@
 }
 
 .collage{
+    padding-top:11%;
+    padding-bottom:5%;
     width:85%;
     margin-left:auto;
     margin-right:auto;
@@ -24,14 +26,14 @@
     width: 100%;
 }
 
-.fade_hov{
-    background: #fff;
-}
-
-.fade{
-    opacity: 0.5;
-}
-
 .column img:hover{
     -webkit-filter:grayscale(100%);
+}
+
+
+@media (max-width:800px){
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
 }
