@@ -3,6 +3,7 @@ import Hours from './hours';
 import Landing from './landing'
 import Menus from './menus';
 import Restaurant from './Restaurant';
+import Fooddisplay from './fooddisplay';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Landing></Landing>
             <Restaurant></Restaurant>
             <Menus></Menus>
+            <Fooddisplay></Fooddisplay>
             <Hours></Hours>
             <GetItems></GetItems>
         </div>

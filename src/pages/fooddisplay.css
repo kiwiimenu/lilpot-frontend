@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+
