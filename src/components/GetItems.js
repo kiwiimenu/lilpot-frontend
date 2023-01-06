@@ -1,4 +1,4 @@
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, doc, getDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { db } from "../firebase/firebase-config.js";
 import { Carousel } from "react-bootstrap";
@@ -9,6 +9,7 @@ import "./getitems.css";
 function GetItems() {
   const [postings, setPostings] = useState([]);
   const postingsCollectionRef = collection(db, "menu");
+  
   // console.log(postingsCollectionRef)
 
   useEffect(() => {
@@ -18,17 +19,17 @@ function GetItems() {
     };
     getPostings();
   }, []);
-  // console.log(postings)
 
   return (
     <div
-      className="background-wrapper"
+      className="background-wrapper2"
       style={{ backgroundImage: `url(${masterbg})` }}
     >
       <div className="posting-grid">
         {postings.map((postings) => {
           return (
             <div className="posting-container">
+              <h1 className='menutitle'>Promotions</h1>
               {" "}
               <div style={{ width: 375 }}>
                 <div className="item-name">{postings.itemName}</div>
