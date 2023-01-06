@@ -1,15 +1,10 @@
 .posting-grid{
-
-}
-
-.posting-container{
-    align-items: center;
-    flex-direction: row;
     /* background-image: ; */
     height: 100vh;
+    margin: auto;
 }
 
 .background-wrapper{
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: row;
+    justify-content: center; */
 }
