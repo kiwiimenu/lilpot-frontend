@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: row;
     /* background-image: ; */
+    height: 100vh;
 }
 
 .background-wrapper{
