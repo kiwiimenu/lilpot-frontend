@@ -1,0 +1,14 @@
+.posting-grid{
+
+}
+
+.posting-container{
+    align-items: center;
+    flex-direction: row;
+    /* background-image: ; */
+}
+
+.background-wrapper{
+    flex-direction: row;
+    justify-content: center;
+}

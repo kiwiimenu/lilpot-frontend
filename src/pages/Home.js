@@ -12,8 +12,8 @@ function Home() {
             <Restaurant></Restaurant>
             <Menus></Menus>
             <Fooddisplay></Fooddisplay>
-            <Hours></Hours>
             <GetItems></GetItems>
+            <Hours></Hours>
         </div>
     )
 }
